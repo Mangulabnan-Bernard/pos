@@ -8,15 +8,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+<header>
     <div class="container">
       <div class="logo">Birdenstock</div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+           <li><a href="">Contact</a></li>
         </ul>
       </nav>
     </div>

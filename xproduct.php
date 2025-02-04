@@ -30,7 +30,7 @@ if (!$result) {
             background-color: #f9f9f9;
             color: #333;
             line-height: 1.6;
-            padding: 20px;
+            padding: 0px;
             margin-top: 55px; /* Adjust the value as needed */
         }
         /* Product Grid Layout */
@@ -187,7 +187,17 @@ if (!$result) {
 </head>
 <body>
     <!-- Include Navigation -->
-    <?php include 'topnav.php'; ?>
+    <nav class="navbar">
+    <div class="logo">Birdenstock</div>
+    <ul class="nav-links">
+        <li><a href="login.php">Home</a></li>
+        <li><a href="login.php">Guide</a></li>
+        <li><a href="login.php">Products</a></li>
+        <li><a href="login.php">Items</a></li>
+        <li><a href="login.php">Contact</a></li>
+        <li><a href="#" onclick="openLogoutModal()" class="logout-btn">Logout</a></li>
+    </ul>
+</nav>
     <!-- Product Grid -->
     <div class="product-grid">
         <?php while ($row = mysqli_fetch_assoc($result)) { ?>

@@ -93,7 +93,7 @@ if (isset($_GET['delete_id'])) {
             background-color: #f9f9f9;
             color: #333;
             line-height: 1.6;
-            padding: 20px;    
+            padding:  0px;    
             margin-top: 55px;
         }
         .add-product-btn {
@@ -160,11 +160,14 @@ if (isset($_GET['delete_id'])) {
             background-color: rgba(0, 0, 0, 0.5);
             justify-content: center;
             align-items: center;
+       
+
         }
 
         .modal-content {
             background-color: #fff;
             padding: 20px;
+            margin-top: -120px;
             border-radius: 10px;
             width: 90%;
             max-width: 500px;

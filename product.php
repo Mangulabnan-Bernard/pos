@@ -30,7 +30,7 @@ if (!$result) {
             background-color: #f9f9f9;
             color: #333;
             line-height: 1.6;
-            padding: 20px;
+            padding:  0px;
             margin-top: 55px; /* Adjust the value as needed */
         }
         /* Product Grid Layout */
