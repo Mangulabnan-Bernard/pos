@@ -37,16 +37,7 @@ $lowStockProducts = $lowStockQuery->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">Birdenstock</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="pos.html">POS</a></li>
-      <li><a href="inventory.html">Inventory</a></li>
-      <li><a href="reports.html">Reports</a></li>
-      <li><a href="settings.html">Settings</a></li>
-    </ul>
-  </nav>
+  
 
   <!-- Dashboard Section -->
   <section class="dashboard">
